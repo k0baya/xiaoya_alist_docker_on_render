@@ -7,10 +7,12 @@
 >而无论是[Railway](https://railway.app/dashboard)还是[Render](https://dashboard.render.com/)都无法使用小雅提供的一键命令进行部署，那么该如何将小雅Alist的Docker镜像部署到Render上呢？
 >
 >通过修改镜像，把自己的token打包进去，重新构筑镜像的办法就可以。
-
-不需要你手动构筑镜像，你可以直接使用这个仓库来完成。
+>
+>不需要你手动构筑镜像，你可以直接使用这个仓库来完成。
 
 ## 部署方法
+
+>好用的话，可以帮我点一下star嘛？
 
 ### 新建一个仓库，并设置为**Private**。
 
