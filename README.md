@@ -44,6 +44,8 @@
 
 ### 在Render进行部署
 
+>据一些网友反馈，Render部署时有部分地区的服务器无法正确部署小雅，具体是哪些区域我没有统计，请自行更换区域测试。
+
 打开[Render](https://dashboard.render.com/)，用相同的GitHub账户登录，然后点击New Web Service，选择刚刚自己新建的的Private仓库，点击Connect。
 
 Name随意填写，Runtime选择免费的那一项，翻到最后点击Advanced，在展开的选项中点击Add Environment Variable，添加环境变量PORT=5678。
@@ -65,6 +67,10 @@ Name随意填写，Runtime选择免费的那一项，翻到最后点击Advanced�
 ### 搜索以及WebDav挂载问题
 
 由于Render的原因，在Render上搭建的小雅Alist的Docker镜像的搜索和WebDav挂载功能会失效，需要你再搭建一个Alist，并挂载你在Render上搭建的小雅，并构建索引，才能正常搜索并挂载WebDav。
+
+### 安全性问题
+
+由于如此搭建之后，使用你的Token搭建的小雅Alist的Docker镜像站是暴露在公网的，任何人只要知道网址就能进去访问，请不要泄露自己的网址，以防止Token被滥用。
 
 ## 容器保活
 
