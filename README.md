@@ -1,3 +1,5 @@
+> # **已经弃用，目前在CodeSandBox平台有更好的部署方法，甚至可以把清理脚本xiaoyakeeper也一同部署，为防止滥用，不在github继续说明。感兴趣的话可以自己去CodeSandBox平台尝试。**
+
 # 如何在[Render](https://dashboard.render.com/)中部署小雅Alist的Docker镜像
 
 >[Render](https://dashboard.render.com/)是一个全托管的云计算平台，可以用于托管Docker容器，且每月有750小时的免费使用时长，如果你仅仅部署一个容器，则可以覆盖整月使用。
